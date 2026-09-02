@@ -9,7 +9,13 @@ const rommate = ["aaditya", "hamdan", "shreyash"]
  //const all = name.concat(rommate) // make an new array and add all thisd it into it 
  //console.log(all);
 
+
+ ///////  imp 
+ 
 const all = [...name , ...rommate]  // spread operator 
+
+
+
 console.log(all);
 
 const arr3 = [1,2,3,[1,2],[1,2,[1,2,5]]]  // complex array 
