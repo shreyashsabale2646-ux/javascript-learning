@@ -36,5 +36,29 @@ function loginUseMsg(username ="Sam"){
   return `${username} just logged in`
 }
 
-console.log(loginUseMsg("hiiiiiiiii"))
-console.log(loginUseMsg())   // undefined
+// console.log(loginUseMsg("hiiiiiiiii"))
+// console.log(loginUseMsg())   // undefined
+
+
+// **********************************  MULTIPLE PARAMETER **********************************
+
+
+function calculateCartPrice(...num1){  //rest operator it will give array 
+  return num1
+}
+
+console.log(calculateCartPrice(2 ,4, 5)); // what if we give multiple value
+
+
+// ********************************** PASSING OBJECT TO FUNCTION  **********************************
+
+const  user = {
+  username: "shrey",
+  price: 199,
+}
+
+function handelObject(anyobject){
+  console.log(`USername is ${anyobject.username} and price is ${anyobject.price}`)
+}
+
+handelObject(user);
