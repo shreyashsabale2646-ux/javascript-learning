@@ -26,4 +26,11 @@ console.log(Math.ceil(4.6)); // 5
 console.log(Math.min(4, 8 ,6 ,78 ));
 console.log(Math.max(4, 8 ,6 ,78 ));
 
+
+
 console.log(Math.random());
+
+const min =10;
+const max = 20;
+
+console.log(Math.floor(Math.random() * (max-min+1)) + min)  /// imp 
