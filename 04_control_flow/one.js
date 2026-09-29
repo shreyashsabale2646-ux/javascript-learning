@@ -44,3 +44,6 @@ if(userLoggedIn && debitCard){
   console.log("allowed");
   
 }
+
+
+// if else basices 
